@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    flex-direction: column;
+}
+
+.no-scroll-container {
+    height: 800px;
+    overflow-y: hidden;
+    color: aliceblue;
+}
+
+.form-container {
+    height: 100%;
+    width: 750px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-container-top {
+    display: flex;
+    flex-direction: row;
+}
+.form-container-bottom {
+    display: flex;
+    flex-direction: column;
+}
+.form-container-bottom-bottom {
+    display: flex;
+    flex-direction: row;
+}
+.form-container-bottom-bottom-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.css-selector {
+    background: linear-gradient(333deg, #3494E6, #EC6EAD);
+    background-size: 400% 100%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:18% 0%}
+    50%{background-position:83% 100%}
+    100%{background-position:18% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:18% 0%}
+    50%{background-position:83% 100%}
+    100%{background-position:18% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:18% 0%}
+    50%{background-position:83% 100%}
+    100%{background-position:18% 0%}
+}
